@@ -1,11 +1,13 @@
 reactjs codes and applications
 
-- c0de splitting
+#TODO
+- code splitting
 - sass
 - react router dom
 - dynamic add remove input fields
-- useMemo
 - react context api
-- react redux
+- authContext
+- redux toolkit
+- useMemo
 
 
