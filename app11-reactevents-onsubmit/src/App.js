@@ -6,6 +6,9 @@ const App = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        if (name.trim().length === 0) {
+            return inputValueRef.current.innerHTML = "Text in the input box is empty";
+        }
         inputValueRef.current.innerHTML = "Text in the input box is '" + name + "'";
     };
 
