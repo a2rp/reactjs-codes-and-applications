@@ -19,16 +19,7 @@ const App = () => {
                 </p>
 
                 <hr />
-                <h3 className={styles.level}>Beginner Level</h3>
                 <QNABeginnerLevel />
-
-                <hr />
-                <h3 className={styles.level}>Intermediate Level</h3>
-                <QNAIntermediateLevel />
-
-                <hr />
-                <h3 className={styles.level}>Advanced Level</h3>
-                <QNAAdvancedLevel />
             </div>
         </div>
     )
