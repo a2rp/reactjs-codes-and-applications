@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12px;
+    scroll-behavior: smooth !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+code,
+pre {
+    display: inline-block;
+    margin: 5px;
+    padding: 15px;
+    background-color: #aaa;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
